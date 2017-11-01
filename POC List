@@ -1,0 +1,9 @@
+1. Create a Kubernetes cluster.
+2. Create Namespace.
+3. Apply RBAC on Namespace.
+4. Create Deployment.
+5. Create Service.
+6. Create/Run pods in the new namespace.
+7. Update App.
+8. Clean up.
+9. 
