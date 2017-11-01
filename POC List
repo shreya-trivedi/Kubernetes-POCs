@@ -6,4 +6,6 @@
 6. Create/Run pods in the new namespace.
 7. Update App.
 8. Clean up.
-9. 
+9. Data persistency.(Volume management)
+10.
+Create Service
