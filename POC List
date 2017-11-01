@@ -1,3 +1,5 @@
+For Application.
+
 1. Create docker images on docker hub for application.
 2. Create new vpc for kubernetes cluster with security group.
 3. Create kubernetes cluster with same vpc & security group.
@@ -9,5 +11,15 @@
 9. Verify deployment is correct or not.
 10. Create deployment for application.
 11. Create service for deployment.
-12.
+12. Access application through:- ClusterIP, NodePort, LoadBalancer, ExternalName.
+
+For Monitoring:- 
+
+1. Create namespace for monitoring.
+2. Create RBAC for namespace for role base authentication for monitoring.
+3. Deploy prometheus & grafana for monitoring.
+4. Create services for both prometheus & grafana pods.
+5. Access them through:- ClusterIP, NodePort, LoadBalancer, ExternalName.
+6. Cofigure prometheus & grafana for monitoring cluster.
+
 
